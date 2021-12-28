@@ -1,0 +1,27 @@
+My first change Tainashkin
+Sub Оценки()
+    Range("H3").Select
+    ActiveCell.FormulaR1C1 = "Вид оценки"
+    Range("I3").Select
+    ActiveCell.FormulaR1C1 = "Кол-во"
+    Range("H4").Select
+    ActiveCell.FormulaR1C1 = "5"
+    Range("H5").Select
+    ActiveCell.FormulaR1C1 = "4"
+    Range("H6").Select
+    ActiveCell.FormulaR1C1 = "3"
+    Range("H7").Select
+    ActiveCell.FormulaR1C1 = "2"
+    Range("I4").Select
+    ActiveCell.FormulaR1C1 = "=COUNTIF(R[-1]C[-5]:R17C4,RC[-1])"
+    Range("I4").Select
+    Range("I5").Select
+    ActiveCell.FormulaR1C1 = "=COUNTIF(R3C4:R17C4,RC[-1])"
+    Range("I6").Select
+    ActiveCell.FormulaR1C1 = "=COUNTIF(R3C4:R17C4,RC[-1])"
+    Range("I7").Select
+    ActiveCell.FormulaR1C1 = "=COUNTIF(R3C4:R17C4,RC[-1])"
+    Range("I8").Select
+End Sub
+
+
